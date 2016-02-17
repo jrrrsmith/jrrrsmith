@@ -291,9 +291,9 @@ h6 {
 
 .title {
   font-size: 36px;
-  color: #d62126;
   position: relative;
-  display: inline-block; }
+  display: inline-block;
+  color: #d62126; }
   .title:after {
     position: absolute;
     width: 100%;
@@ -304,9 +304,18 @@ h6 {
     height: 5px;
     z-index: -1;
     background-color: #5ec6c5; }
+  .title a {
+    color: inherit; }
 
 /*--------------------------------------------------------------
 7.0 Modules
 --------------------------------------------------------------*/
+.home__blog {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%; }
+  .home__blog:last-child {
+    margin-right: 0; }
 
 /*# sourceMappingURL=style.css.map */
